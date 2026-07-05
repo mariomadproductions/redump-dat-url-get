@@ -1,5 +1,5 @@
 # redump-dat-url-get
-Gets DAT download URLs from redump.info. It just uses the `requests` and `beautifulsoup` libraries to parse the HTML to get all the links in the `main` element with the link text "Dat".
+Gets DAT download URLs from redump.info. It works by parsing the HTML to get all the links in the `main` element with the link text "Dat".
 
 Usage: `redump-dat-url-get DOWNLOAD_PAGE_URL`  
 e.g. `redump-dat-url-get 'https://redump.info/downloads'`
